@@ -29,7 +29,6 @@ public class Invoice {
 
     public void add()  {
         connect.connectDb();
-        delete.deleteDb();
         insert.InsertDb();
         close.CloseDb();
         MailMessage mailMessage = new MailMessage("MailAddressFrom","MailAddressTo","MailSubject","MailBody");

@@ -44,10 +44,10 @@ public class Calculator {
                 break;
             case Max:
                 Max max = new Max();
-                result = max.calculate(numbers);
+                max.calculate(numbers);
             case Min:
                 Min min = new Min();
-                result = min.calculate(numbers);
+                min.calculate(numbers);
             case Count:
                 Count count = new Count();
                 result = count.calculate(numbers);
@@ -57,44 +57,6 @@ public class Calculator {
     }
 
 
-//        if (operation.equals(Operation.Count)){
-//            return numbers.size();
-//        }
-//        if (operation.equals(Operation.Addition)){
-//            int result = 0;
-//            for (Integer number : numbers) {
-//                result += number;
-//            }
-//            return result;
-//        }
-//
-//        if (operation.equals(Operation.Multiplication)){
-//            int result = 1;
-//            for (Integer number : numbers) {
-//                result *= number;
-//            }
-//            return result;
-//        }
-//        if (operation.equals(Operation.Max)){
-//            int max = Integer.MIN_VALUE;
-//            for (Integer number : numbers) {
-//                if (max < number){
-//                    max = number;
-//                }
-//            }
-//            return max;
-//        }
-//        if (operation.equals(Operation.Min)){
-//            int min = Integer.MAX_VALUE;
-//            for (Integer number : numbers) {
-//                if (min > number){
-//                    min = number;
-//                }
-//            }
-//            return min;
-//        }
-//        System.err.println("Invalid operation");
-     //   return -1111111;
 
     }
 
