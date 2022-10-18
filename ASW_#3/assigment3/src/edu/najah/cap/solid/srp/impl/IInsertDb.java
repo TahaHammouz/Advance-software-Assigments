@@ -6,6 +6,6 @@ public class IInsertDb implements InsertDb {
 
     @Override
     public void InsertDb() {
-
+        System.out.println("inserting");
     }
 }

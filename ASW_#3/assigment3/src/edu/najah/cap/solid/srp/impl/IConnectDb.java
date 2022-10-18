@@ -7,6 +7,6 @@ public class IConnectDb implements ConnectDb {
 
     @Override
     public void connectDb() {
-
+        System.out.println("connecting");
     }
 }
