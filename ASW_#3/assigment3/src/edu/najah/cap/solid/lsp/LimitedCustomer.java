@@ -1,6 +1,7 @@
 package edu.najah.cap.solid.lsp;
 
-public class LimitedCustomer extends Customer{
+
+public class LimitedCustomer extends Client{
 
     private static final int MAX_ALLOWED_OFFER = 3;
 
@@ -13,7 +14,7 @@ public class LimitedCustomer extends Customer{
     }
 
     private boolean isReachedMaxAllowedOffers() {
-        return this.offers.size() >= MAX_ALLOWED_OFFER;
+        return offers.size() >= MAX_ALLOWED_OFFER;
     }
 
 }
