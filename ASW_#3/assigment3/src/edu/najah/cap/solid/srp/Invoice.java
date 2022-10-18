@@ -28,7 +28,6 @@ public class Invoice {
     }
 
     public void add()  {
-    //connect
         connect.connectDb();
         delete.deleteDb();
         insert.InsertDb();
