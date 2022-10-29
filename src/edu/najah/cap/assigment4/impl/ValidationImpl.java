@@ -26,12 +26,11 @@ public class ValidationImpl implements Validation {
 
     @Override
     public void isDefault(String colorName,Color color) {
-        if (ColorStore.colors.containsKey(myColours.get(colorName))){
+        if (myColours.containsKey(colorName)){
             System.out.println(colorName);
             }
         else {
             System.out.println(String.valueOf(ColorStore.colors.get(colorName)));
-            System.out.println(ColorStore.colors.get(colorName));
         }
         }
     }

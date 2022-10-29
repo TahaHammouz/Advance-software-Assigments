@@ -10,6 +10,9 @@ public class App {
 
         //Create colors and if its already exist print a message
         CreatorImpl create = new CreatorImpl();
+        ColorStore cs = new ColorStore();
+        ValidationImpl vl = new ValidationImpl();
+
         System.out.println("---------Default values from cache--------");
         System.out.println("Initial list of elements: "+colors);
         //create a new color with valid values
@@ -21,26 +24,9 @@ public class App {
         System.out.println("--------Create color once again---------");
         create.getOrCreateColor("grey",new Color(128, 128, 128));
         System.out.println("-----------------");
-        ColorStore cs = new ColorStore();
-        ValidationImpl vl = new ValidationImpl();
+
         vl.isDefault("Red", new Color(255,0,0));
         vl.isDefault("grey",new Color(128, 128, 128));
-      //  cs.ColorValue(new Color(128, 128, 128	), "grey");
-
-
-
-        // cs.ColorValue("Red");
-      //  cs.ColorValue("grey");
-
-
-
-
-
-
-
-
-
-
 
 
 

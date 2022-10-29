@@ -12,13 +12,4 @@ public class ColorStore {
         colors.put("Black", new Color(0,0,0));
     }
 
-
-//    public void ColorValue(Color RGB, String colorName) {
-//        if (!ColorStore.colors.containsKey("Red")){
-//            String val = String.valueOf(ColorStore.colors.get(colorName));
-//            System.out.println(val);
-//        }else{
-//            System.out.println(colorName);
-//        }
-//    }
 }
