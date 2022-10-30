@@ -10,7 +10,10 @@ In my static block, I have set the default values
 I've created another hashmap with default values that prints the name of the color if the main hashmap has the same default values, otherwise it prints the RGB values.
 
 
+<img width="641" alt="Screen Shot 2022-10-30 at 1 40 22 AM" src="https://user-images.githubusercontent.com/53263252/198874348-a5219327-3698-43b5-98f0-92cdab7c9ac5.png">
 
+
+Ps. by mistake, i deleted the branch so i had to restore it and create another README
 
 
 
